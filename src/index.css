@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #e2e8f0;
+    background-color: #07080B;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom cinematic glow and backdrop blur */
+.cinema-glow {
+  box-shadow: 0 0 50px -10px rgba(245, 158, 11, 0.15);
+}
+
+.cinema-card-glow:hover {
+  box-shadow: 0 10px 30px -10px rgba(245, 158, 11, 0.12);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07080B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e2230;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3348;
+}

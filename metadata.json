@@ -1,0 +1,6 @@
+{
+  "name": "CineVibe — Movie & TV Discovery Lounge",
+  "description": "An immersive cinema discovery hub with interactive Mood & Vibe Matcher, curated film reels, trailer viewports, and AI recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
